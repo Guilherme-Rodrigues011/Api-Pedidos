@@ -1,6 +1,19 @@
 # API Pedidos
 
+**Objetivo do Projeto:**
+Esta é uma API desenvolvida para o gerenciamento de pedidos. O sistema permite realizar operações de criação e consulta de pedidos de forma rápida, rodando em contêineres para facilitar a execução e padronizar o ambiente.
+
 Trabalho 1 da disciplina **Desenvolvimento de Sistemas Distribuídos** (UNIP) — API de Pedidos implementada em **TypeScript**.
+
+## 👨‍💻 Autores
+- Guilherme Rodrigues
+
+## 🛠️ Tecnologias Utilizadas
+- TypeScript / Node.js
+- Express 5
+- Zod (Validação)
+- SQL Server 2022
+- Docker e Docker Compose
 
 ## Arquitetura
 
@@ -15,17 +28,6 @@ A aplicação é organizada em 3 camadas lógicas, todas empacotadas no mesmo co
 - **Repository** (`src/repositories`) — único ponto do código que executa SQL contra o banco
 
 O SQL Server roda em um **container separado**, com volume persistente — os dados sobrevivem a reinícios da API.
-
-## Stack
-
-| Camada | Tecnologia |
-|---|---|
-| Linguagem | TypeScript |
-| Framework HTTP | Express 5 |
-| Validação de entrada | Zod |
-| Banco de dados | SQL Server 2022 |
-| Driver do banco | `mssql` (node-mssql) |
-| Containerização | Docker + Docker Compose |
 
 ## Modelo de Pedido
 
