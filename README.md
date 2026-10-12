@@ -5,7 +5,7 @@ Esta é uma API desenvolvida para o gerenciamento de pedidos. O sistema permite 
 
 Trabalho 1 da disciplina **Desenvolvimento de Sistemas Distribuídos** (UNIP) — API de Pedidos implementada em **TypeScript**.
 
-## 👨‍💻 Autores
+## Autor
 - Guilherme Rodrigues
 
 ## 🛠️ Tecnologias Utilizadas
